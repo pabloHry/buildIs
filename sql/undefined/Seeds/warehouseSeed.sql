@@ -1,0 +1,1 @@
+INSERT INTO warehouse(amount_scooter, amount_repair, location, idscooter) VALUES('10', '30', 'saint-denis', '1')

@@ -1,0 +1,1 @@
+select * from scooter where location in (select location from user) AND status LIKE 'available'

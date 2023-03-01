@@ -1,0 +1,1 @@
+DELETE FROM scooter WHERE status = 'outOfService'

@@ -1,0 +1,1 @@
+CREATE TABLE scooter(idscooter INT NOT NULL AUTO_INCREMENT, location VARCHAR(255) NOT NULL, battery INT NOT NULL, availability INT NOT NULL, status VARCHAR(255) NOT NULL, number_of_uses INT NOT NULL, km_traveled INT NOT NULL, PRIMARY KEY (idscooter))

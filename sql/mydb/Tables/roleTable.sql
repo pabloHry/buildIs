@@ -1,0 +1,1 @@
+CREATE TABLE role(idrole INT NOT NULL AUTO_INCREMENT, client TINYINT NOT NULL, admin TINYINT NOT NULL, technician TINYINT NOT NULL, idright INT NOT NULL, PRIMARY KEY (idrole), INDEX (idright), FOREIGN KEY (idright) REFERENCES rights(idright))

@@ -1,0 +1,1 @@
+INSERT INTO user (email, password, phone_number, username, age, first_name, last_name, idrole, location, subscription) VALUES ('Birdie.Moore@hotmail.com', 'WFpNnr7B8OW3xPi', '02-112457-836883-2', 'Asia57', '68', 'Arlie', 'Howell', '1', "Yerres", "Gold")

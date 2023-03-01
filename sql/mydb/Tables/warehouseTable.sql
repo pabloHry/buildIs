@@ -1,0 +1,1 @@
+CREATE TABLE warehouse(idwarehouse INT NOT NULL AUTO_INCREMENT, amount_scooter INT NOT NULL, amount_repair INT NOT NULL, location VARCHAR(255) NOT NULL, idscooter INT NOT NULL, PRIMARY KEY (idwarehouse), INDEX (idscooter), FOREIGN KEY (idscooter) REFERENCES scooter(idscooter))

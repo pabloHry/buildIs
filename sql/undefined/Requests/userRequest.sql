@@ -1,0 +1,1 @@
+UPDATE user SET email = bonjour WHERE iduser = 1
